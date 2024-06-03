@@ -51,4 +51,4 @@ jobs:
     - name: Release
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        run: ./node_modules/.bin/semantic-release
+      run: ./node_modules/.bin/semantic-release
