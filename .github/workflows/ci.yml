@@ -55,3 +55,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       run: npx semantic-release
+
+    - name: Debug: Print environment variables
+      run: printenv
+    
+    - name: Debug: Check git remote
+      run: git remote -v
+    
