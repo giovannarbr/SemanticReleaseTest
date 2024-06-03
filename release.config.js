@@ -7,6 +7,6 @@ module.exports = {
       "@semantic-release/git",
       "@semantic-release/github"
     ],
-    repositoryUrl: "https://github.com/giovannarbr/SemanticReleaseTest"
+    repositoryUrl: "https://github.com/giovannarbr/SemanticReleaseTest.git"
   };
   
