@@ -58,7 +58,6 @@ jobs:
 
     - name: Debug: Print environment variables
       run: printenv
-    
+
     - name: Debug: Check git remote
       run: git remote -v
-    
