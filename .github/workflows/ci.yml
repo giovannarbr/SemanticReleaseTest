@@ -30,22 +30,22 @@ jobs:
     - name: Run tests
       run: dotnet test --no-build --verbosity normal --configuration Release
 
-    release:
+  release:
     needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-        uses: actions/checkout@v2
+      uses: actions/checkout@v2
 
     - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
+      uses: actions/setup-node@v2
+      with:
         node-version: '14'
 
     - name: Install dependencies
-        run: npm install
+      run: npm install
 
     - name: Release
-        env: 
+      env:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        run: npm run release
+      run: npm run release
