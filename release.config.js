@@ -12,7 +12,7 @@ module.exports = {
           FILE="SemanticReleaseTest.csproj"
           if [ -z "$VERSION" ]; then
             echo "No version provided!"
-            exit 1
+            exit 1 
           fi
           if [[ "$OSTYPE" == "darwin"* ]]; then
             sed -i '' -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
