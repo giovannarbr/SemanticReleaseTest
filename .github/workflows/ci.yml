@@ -60,6 +60,11 @@ jobs:
 
     - name: Install Versionize
       run: dotnet tool install --global Versionize
+
+    - name: Setup git
+      run: |
+        git config --local user.email "giovannadrbr@gmail.com"
+        git config --local user.name "giovannarbr"
       
     - name: Versioning
       id: versionize
