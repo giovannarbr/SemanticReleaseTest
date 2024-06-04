@@ -48,13 +48,13 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Grant execute permissions for semantic-release
-      run: chmod +x node_modules/.bin/semantic-release
+    # - name: Grant execute permissions for semantic-release
+    #   run: chmod +x node_modules/.bin/semantic-release
 
-    - name: Release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-      run: npx semantic-release
+    # - name: Release
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+    #   run: npx semantic-release
 
     - name: Install Versionize
       run: dotnet tool install --global Versionize
