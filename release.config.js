@@ -31,7 +31,7 @@ module.exports = {
             echo "No version provided!"
             exit 1
           fi
-          sed -i '' -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
+          sed -i -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
           echo "Version updated to $VERSION"
         `
         }
