@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giovanna.ribeiro\\SemanticReleaseTest\\SemanticReleaseTest\\SemanticReleaseTest.csproj",
+      "projectUniqueName": "C:\\Users\\giovanna.ribeiro\\SemanticReleaseTest\\SemanticReleaseTest.csproj",
       "projectName": "SemanticReleaseTest",
-      "projectPath": "C:\\Users\\giovanna.ribeiro\\SemanticReleaseTest\\SemanticReleaseTest\\SemanticReleaseTest.csproj",
+      "projectPath": "C:\\Users\\giovanna.ribeiro\\SemanticReleaseTest\\SemanticReleaseTest.csproj",
       "packagesPath": "C:\\Users\\giovanna.ribeiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giovanna.ribeiro\\SemanticReleaseTest\\SemanticReleaseTest\\obj\\",
+      "outputPath": "C:\\Users\\giovanna.ribeiro\\SemanticReleaseTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giovanna.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
