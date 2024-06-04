@@ -33,6 +33,7 @@ module.exports = {
           fi
           sed -i -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
           echo "Version updated to $VERSION"
+          cat SemanticReleaseTest.csproj
         `
         }
       ],
