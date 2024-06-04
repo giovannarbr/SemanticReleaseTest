@@ -64,7 +64,7 @@ jobs:
     - name: Setup git
       run: |
         git config --local user.email "giovannadrbr@gmail.com"
-        git config --local user.name "giovannarbr"
+        git config --local user.name "Giovanna Ribeiro"
       
     - name: Versioning
       id: versionize
