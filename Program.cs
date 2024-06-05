@@ -31,7 +31,3 @@ Console.WriteLine("sufoco.png");
 Console.WriteLine("sufoco.png");
 Console.WriteLine("sufoco.png");
 Console.WriteLine("sufoco.png");
-Console.WriteLine("sufoco.png");
-Console.WriteLine("sufoco.png");
-Console.WriteLine("sufoco.png");
-Console.WriteLine("sufoco.png");
