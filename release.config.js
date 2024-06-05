@@ -28,11 +28,7 @@ module.exports = {
             echo "No version provided!"
             exit 1 
           fi
-          if [[ "$OSTYPE" == "darwin"* ]]; then
-            sed -i '' -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
-          else
-            sed -i -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
-          fi
+          sed -i -e "s|<Version>.*</Version>|<Version>$VERSION</Version>|" $FILE
           echo "Version updated to $VERSION"
           cat $FILE
         `
